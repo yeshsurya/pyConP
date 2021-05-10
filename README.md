@@ -9,5 +9,5 @@ Master notes for python core concepts
 <h1> List and Set Comprehensions </h1>
 <br/>
 <h2> Comprehensions </h2>
-<p> Concise syntax for describing lists, sets and dictionaries. </p>
-<p></p>
+<p> Concise syntax for describing lists, sets and dictionaries. General sytax for list comprehensions : </p>
+<p>```[ expr(item) for item in iterable ]```</p>
