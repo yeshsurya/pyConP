@@ -20,3 +20,11 @@ Master notes for python core concepts
 ```
 { expr(item) for item in iterable }
 ```
+
+<p> General syntax for dict comprehensions : </p>
+```
+{
+    key_expr(item) : value_expr(item)
+    for item in iterable
+}
+```
