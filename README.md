@@ -16,6 +16,7 @@ Master notes for python core concepts
 ```
 
 <p> General syntax for set comprehensions : </p> 
+
 ```
 { expr(item) for item in iterable }
 ```
