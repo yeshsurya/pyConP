@@ -22,9 +22,19 @@ Master notes for python core concepts
 ```
 
 <p> General syntax for dict comprehensions : </p>
+
 ```
 {
     key_expr(item) : value_expr(item)
     for item in iterable
 }
+```
+<p> Dictionary compreshensions don't work directly on dict sources. User <i> dict.items()</i> to get keys and values from <i>dict</i> sources. </p>
+
+<h2> Filtering Comprehensions </h2>
+</br>
+<p> If the end expression is True then that particular item is collected </p>
+
+```
+[ expr(item) for item in iterable if bool_expr(item) ]
 ```
