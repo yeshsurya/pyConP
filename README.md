@@ -43,3 +43,6 @@ Master notes for python core concepts
 
 <h2> Nonlocal Keyword </h2> 
 <p> The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local. </p>
+
+<h2> Strings <h2/>
+    <p> The repr() function returns a printable representational string of the given object </p>
