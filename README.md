@@ -129,3 +129,12 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
         </li> 
         <li> What are two ways to include double quotation marks within literal strings? :  insert a backslash before the character(s) • open and close the string with single quotation marks
         </li>
+<li> You have a nested comprehension in Python to look for the numbers divisible by three and five. Because the numbers are divisible, the if statement evaluates to true so you give the following expression: number_list = [x for x in range(100) if x % 3 if x % 5]. It still does not show the expected output. Why not? : You must evaluate if the remainder is zero so the correct expression would be: number_list = [x for x in range(100) if x % 3 == 0 if x % 5 == 0] </li>
+        <li> How do you define an empty set? : x = set() </li>
+        <li> How do you define a function to yield an even list_of_numbers? : python
+        def my_evens(list_of_numbers): </br>
+        for i in range(list_of_numbers): </br>
+        if i % 2 == 0: </br>
+        yield i </br>
+        </li>
+       <li> Can you use the unittest module to test if the script is performing the desired changes on your infrastructure while it's running? : No, the unittest is only able to verify if the given functions return the proper values on specified inputs. </li>
