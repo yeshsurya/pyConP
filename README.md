@@ -52,7 +52,7 @@ Master notes for python core concepts
 <p> <a href="https://docs.python.org/3/library/exceptions.html#exception-hierarchy">Exception Hierarchy </a></p> 
 
 
-<h2> Other Nuggest <h2>
+<h2> Other Nuggest </h2>
     <ul>
         <li>A dict is a structure like hash map. It stores key-value pairs, where keys are unique and it has O(1) access time. The most important limitation for a dict is that keys must be hashable/immutable. Meaning we can use tuple as key, but not a list </li>
         <li> 
