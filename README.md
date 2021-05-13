@@ -61,3 +61,4 @@ Master notes for python core concepts
     <li> Decorators in Python are used to modify or inject code in functions or classes. Using decorators, you can wrap a class or function method call so that a piece of code can be executed before or after the execution of the original code. Decorators can be used to check for permissions, modify or track the arguments passed to a method, logging the calls to a specific method, etc.</li>
     <li> Lambda in python is an anonymous function created at runtime. </li>
     <li> `*` unpacks a tupe and `**` upacks a dict </li>
+  <li> Introspection is the ability to examine an object at runtime. Example "dir()" , "type()". While introspection is passive examination of the objects, reflection is a more powerful tool where we could modify objects at runtime and access them dynamically. E.g "setattr()", "getattr()". </li>
