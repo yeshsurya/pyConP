@@ -46,3 +46,7 @@ Master notes for python core concepts
 
 <h2> Strings <h2/>
     <p> The repr() function returns a printable representational string of the given object </p>
+    
+
+<h2> Standard Exception Hierarchy </h2>
+<p> <a href="https://docs.python.org/3/library/exceptions.html#exception-hierarchy">Exception Hierarchy </a></p> 
