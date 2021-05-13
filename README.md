@@ -71,3 +71,23 @@ Master notes for python core concepts
     <li> Ternary operator in python looks like `[on_true] if [expression] else [on_false]` , example : " x if x<y else y " </li>
     <li> Python has a inbuilt garbage collector, which recycles all the unused memory and frees the memory and makes it available to the heap space </li> 
     <li> Python memory is managed by Python private heap space. All Python objects and data structures are located in a private heap. The programmer does not have an access to this private heap, and the interpreter takes care of this Python private heap. The allocation of Python heap space for Python objects is done by the Python memory manager. The core API gives access to some tools for the programmer to code </li> 
+    <li> Everything in Python is an object, all the variables hold references to the objects. The reference values are according to the functions. Therefore, you cannot change the value of the references. However, you can change the objects if it is mutable. </li> 
+    <li> Python provied two built-in types 1) Mutable and 2) Immutalbe. </br> Mutable built-in types are : </br> 
+        <ul> 
+        <li> List </li> 
+        <li> Sets </li> 
+        <li> Dictionaries </li> 
+        <li> Immutalbe built-in types</li>
+        <li> Strings </li>
+        <li> Tuples </li>
+        <li> Numbers </li> 
+        </ul>
+        </br>
+        Immutable built-in types are : 
+        </br> 
+        <ul> 
+        <li> Strings </li>
+        <li> Tuples </li> 
+        <li> Nubmers </li>
+        </ul>
+        </li>
