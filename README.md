@@ -59,3 +59,5 @@ Master notes for python core concepts
     <li> Pickling is converting an object to a string representation in python. Generally used for caching and transferring objects between hosts/processes. </li> 
     <li> A generator is a callable object that acts as an iterable ( object you can iterate in for cycles etc ) </li> 
     <li> Decorators in Python are used to modify or inject code in functions or classes. Using decorators, you can wrap a class or function method call so that a piece of code can be executed before or after the execution of the original code. Decorators can be used to check for permissions, modify or track the arguments passed to a method, logging the calls to a specific method, etc.</li>
+    <li> Lambda in python is an anonymous function created at runtime. </li>
+    <li> `*` unpacks a tupe and `**` upacks a dict </li>
