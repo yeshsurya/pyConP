@@ -62,3 +62,4 @@ Master notes for python core concepts
     <li> Lambda in python is an anonymous function created at runtime. </li>
     <li> `*` unpacks a tupe and `**` upacks a dict </li>
   <li> Introspection is the ability to examine an object at runtime. Example "dir()" , "type()". While introspection is passive examination of the objects, reflection is a more powerful tool where we could modify objects at runtime and access them dynamically. E.g "setattr()", "getattr()". </li>
+    <li> As python OOP doesn't support true private attributes/methods we circumvent this limitation by using a name prefix with underscore which is as a convention considered private. </li>
