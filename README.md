@@ -91,3 +91,8 @@ Master notes for python core concepts
         <li> Nubmers </li>
         </ul>
         </li>
+<li> A Python documentation string is known as docstring, it is a way of documenting Python functions, modules, and classes. </li>
+<li> Xrange returns the xrange object while range returns the list and uses the same memory and no matter what the range size is. </li> 
+<li> To make a python script executable on Unix , you'll need to set file's mode to executable and first line must begin with # ( #!/usr/local/bin/python ) </li>
+        <li> Comparing Flask/Pyramids/Django : Flask is a microframework primarily build for a small application with simpler requirements. In flask you don't have to use external libraries. Flask is ready to use. Pyramids are built for larger applications. It provides flexibility and lets the developer use the right tools for their project. The developer can choose the datbase, URL structure, templating style, and more. Like pyramid, Django can also be used for larger applications. It includes an ORM.  </li> 
+    
