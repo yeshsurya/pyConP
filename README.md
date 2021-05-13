@@ -52,7 +52,9 @@ Master notes for python core concepts
 <p> <a href="https://docs.python.org/3/library/exceptions.html#exception-hierarchy">Exception Hierarchy </a></p> 
 
 
-<h2> Other Nuggest </h2>
+<h2> Other Nuggets </h2>
     <ul>
         <li>A dict is a structure like hash map. It stores key-value pairs, where keys are unique and it has O(1) access time. The most important limitation for a dict is that keys must be hashable/immutable. Meaning we can use tuple as key, but not a list </li>
         <li>A callable is an object we can call - function or an object implementing the __call__ sepcial method. Any object can be made callable. </li>
+    <li> Pickling is converting an object to a string representation in python. Generally used for caching and transferring objects between hosts/processes. </li> 
+    <li> </li> 
