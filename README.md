@@ -114,4 +114,18 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
 <li> Xrange returns the xrange object while range returns the list and uses the same memory and no matter what the range size is. </li> 
 <li> To make a python script executable on Unix , you'll need to set file's mode to executable and first line must begin with # ( #!/usr/local/bin/python ) </li>
         <li> Comparing Flask/Pyramids/Django : Flask is a microframework primarily build for a small application with simpler requirements. In flask you don't have to use external libraries. Flask is ready to use. Pyramids are built for larger applications. It provides flexibility and lets the developer use the right tools for their project. The developer can choose the datbase, URL structure, templating style, and more. Like pyramid, Django can also be used for larger applications. It includes an ORM.  </li> 
-    
+        <li> "Exception" can server as the base for other custom defined exceptions </li>
+        <li> "None" keyword is frequently used to represent the absence of a value, as when default arguments are not passed to a function </li>
+        <li> Two kinds of errors that can occur in pytho are : a. Syntax errors b. Exception <li>
+        <li> "from math import sqrt" , a function named "sqrt" is imported from math module to global namespace </li>
+        <li> When an assertion test passes for a Python program it means : All the assumed bugg, or sources of bugs were tested and none were found. </li>
+        <li> How would you create a function that takes a value and refers to it by its assigned name? : Kwargs are like a dictionary, the most convenient way in Python when you want to pass a key-value based argument or arguments to a function.
+        "pythondef function(**kwargs):        return kwargs['value1'] * kwargs['value2']" </li>
+    <li> • A function should traverse a two dimensional array
+• A True boolean should be returned if the inner traversal's value matches a specified string.  : • When the outside traversal begins
+• When the inside traversal begins
+• When the conditional is run
+• When the return statement is invoked
+        </li> 
+        <li> What are two ways to include double quotation marks within literal strings? :  insert a backslash before the character(s) • open and close the string with single quotation marks
+        </li>
