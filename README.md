@@ -5,6 +5,25 @@ Master notes for python core concepts
 <br/>
 <p> Python is interpreted, garbage-collected and dynamically typed </p>
 
+<h1> Scope </h1> 
+
+```
+class Class1():
+    def __init__(self, sharedVar):
+        sharedVar += 1   # ** We pass by reference in all cases but not when we instantiate class **
+        print("Class1",sharedVar) # output is 2
+
+class Class2():
+    def __init__(self, sharedVar):
+        print("Class2",sharedVar) # output is 1 but expected to be 2
+
+sharedVar = 1
+my_child1 = Class1(sharedVar)  # expecting to print 1
+my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see print of 1
+
+
+```
+
 
 <h1> List and Set Comprehensions </h1>
 <br/>
