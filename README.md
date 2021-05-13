@@ -55,4 +55,4 @@ Master notes for python core concepts
 <h2> Other Nuggest </h2>
     <ul>
         <li>A dict is a structure like hash map. It stores key-value pairs, where keys are unique and it has O(1) access time. The most important limitation for a dict is that keys must be hashable/immutable. Meaning we can use tuple as key, but not a list </li>
-        <li> 
+        <li>A callable is an object we can call - function or an object implementing the __call__ sepcial method. Any object can be made callable. </li>
