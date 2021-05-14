@@ -61,7 +61,9 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
 <h1> Core Language </h1> 
 </hr>
 <h2> Organizing Larger Programs </h2>
-
+ <ul> 
+    <li> Module is a python basic tool for organizing code. Normally it is a single Python source file. 
+        We can load modules with "import" keyword. Modules once imported are like any other Python object. </li>
 <h2> Nonlocal Keyword </h2> 
 <p> The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local. </p>
 
