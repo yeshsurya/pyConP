@@ -64,6 +64,11 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
  <ul> 
     <li> Module is a python basic tool for organizing code. Normally it is a single Python source file. 
         We can load modules with "import" keyword. Modules once imported are like any other Python object. </li>
+    <li> Package is a special type of module, which can contain other packages. Packages are generally directories, while modules are generally files. </li>
+    <li> Packages will have "__path__" defined , whild modules will not have it defined. </li> 
+    <li> "sys.path" controls module search, and it is initialized from PYTHONPATH </li> 
+    <li> If a package is a nested one, Only first name is bound and for accessing submodules we'll need to use thier full-qualifed names for accessing them </li>
+    <li> If we try to import module it and if is not present in paths of "sys.path" , then "ImportError" exception will rise </li>
 <h2> Nonlocal Keyword </h2> 
 <p> The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local. </p>
 
