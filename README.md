@@ -71,6 +71,7 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
     <li> "sys.path" controls module search, and it is initialized from PYTHONPATH </li> 
     <li> If a package is a nested one, Only first name is bound and for accessing submodules we'll need to use thier full-qualifed names for accessing them </li>
     <li> If we try to import module it and if is not present in paths of "sys.path" , then "ImportError" exception will rise </li>
+    <li> Use "set PYTHONPATH = path1;path2;path3" in windows , in Linux/MacOS use "export PYTHONPATH=path1:path2:path3" </li>
 <h2> Nonlocal Keyword </h2> 
 <p> The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local. </p>
 
