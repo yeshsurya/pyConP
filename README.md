@@ -4,7 +4,9 @@ Master notes for python core concepts
 <hr/>
 <br/>
 <p> Python is interpreted, garbage-collected and dynamically typed </p>
-
+<h1> Datatypes </h1>
+<ul> <li> A dictionary in Python is a collection of items that stores data as key-value pairs. In Python 3.7 and later versions, dictionaries are sorted by the order of item insertion. In earlier versions, they were unordered. </li> 
+    </ul>
 <h1> Scope </h1> 
 
 ```
