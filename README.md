@@ -72,6 +72,9 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
     <li> If a package is a nested one, Only first name is bound and for accessing submodules we'll need to use thier full-qualifed names for accessing them </li>
     <li> If we try to import module it and if is not present in paths of "sys.path" , then "ImportError" exception will rise </li>
     <li> Use "set PYTHONPATH = path1;path2;path3" in windows , in Linux/MacOS use "export PYTHONPATH=path1:path2:path3" </li>
+    <li> A package is a directory conataining "__init__.py". This file is optional after python 3.3+. However it is still requied in earlier python versions. </li> 
+    <li> Relative imports avoid specifying name of package. Example " from .. import util" , here (..) meand current or parent package. In general absolute import are preferred </li>
+    <li> "__all__" it controls "import * behavior". It must be a list of strings, where each entry is a name to import. </li>
 <h2> Nonlocal Keyword </h2> 
 <p> The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local. </p>
 
