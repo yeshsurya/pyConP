@@ -59,6 +59,8 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
 ```
 
 <h1> Core Language </h1> 
+</hr>
+<h2> Organizing Larger Programs </h2>
 
 <h2> Nonlocal Keyword </h2> 
 <p> The nonlocal keyword is used to work with variables inside nested functions, where the variable should not belong to the inner function. Use the keyword nonlocal to declare that the variable is not local. </p>
