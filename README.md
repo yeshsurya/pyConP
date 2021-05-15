@@ -93,7 +93,16 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
         <li> A method can be made static method by static method decorator(@staticmethod)</li>
         <li>![image](https://user-images.githubusercontent.com/9417467/118355178-58839780-b58c-11eb-95de-d30d25b1178b.png)
  </li>
-        <li> </li>
+        <li> General Syntax for single class Inheritance : 
+            
+            ```
+            class Parent_class_Name:
+            #Parent_class code block
+            class Child_class_Name(Parent_class_name):
+            #Child_class code block
+            ```
+            
+        </li>
         <li> </li>
         <li> </li>
         <li> </li>
