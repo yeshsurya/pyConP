@@ -16,6 +16,7 @@ Master notes for python core concepts
     <li> BUILT-IN : In the special builtins module </li>
     <li> LEGB </li>
     <li> When accessed through "self" instance attributes takes precedence over class attributes. </li>
+    <li> There is no class scope. Class will not introduce any scope. </li>
 </ul>
     
 
