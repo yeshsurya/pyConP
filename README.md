@@ -9,6 +9,16 @@ Master notes for python core concepts
     </ul>
 <h1> Scope </h1> 
 
+<ul> 
+    <li> LOCAL : Inside the current function </li>
+    <li> ENCLOSING : Inside enclosing functions </li>
+    <li> GLOBAL : At the top level of the module </li>
+    <li> BUILT-IN : In the special builtins module </li>
+    <li> LEGB </li>
+    <li> When accessed through "self" instance attributes takes precedence over class attributes. </li>
+</ul>
+    
+
 ```
 class Class1():
     def __init__(self, sharedVar):
