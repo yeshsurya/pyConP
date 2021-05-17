@@ -149,6 +149,7 @@ factorial(10)
 <li> Dataclass module is introduced in Python 3.7 as a utility tool to make structured classes specially for storing data. These classes hold certain properties and functions to deal specifically with the data and its representation. DataClasses in widely used Python3.6. Although the module was introduced in Python3 </li>
         <li> A decorator factory is just a callable that produces the actual decorator. It is used to make it possible to 'configure' a decorator. </li>
         <li> A dataclass if forozen like "@dataclass(eq=True,frozen=True)" then the ojbects instantiated will become hashable and then can be part of ojbects like "set" </li>
+	<li> "__post_init__()" is the method where we do attribute validation for dataclass , it is not necessary to be done only here , but it is a standard practice </li>
     </ul>
  
 <h2> Nonlocal Keyword </h2> 
