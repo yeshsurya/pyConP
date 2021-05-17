@@ -146,7 +146,7 @@ factorial(10)
 ```
 
 </li>
-        <li> </li>
+<li> Dataclass module is introduced in Python 3.7 as a utility tool to make structured classes specially for storing data. These classes hold certain properties and functions to deal specifically with the data and its representation. DataClasses in widely used Python3.6. Although the module was introduced in Python3 </li>
         <li> </li>
         <li> </li>
     </ul>
