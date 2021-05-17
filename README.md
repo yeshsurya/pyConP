@@ -230,3 +230,4 @@ factorial(10)
         </li>
        <li> Can you use the unittest module to test if the script is performing the desired changes on your infrastructure while it's running? : No, the unittest is only able to verify if the given functions return the proper values on specified inputs. </li>
         <li> "locals()" prints all local variables in current scope </li>
+	    <li> List of all dunder methods in Python <a href="https://www.reddit.com/r/Python/comments/br9ok2/list_of_all_python_dunder_methods/"> in reddit </a>
