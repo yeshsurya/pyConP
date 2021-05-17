@@ -150,6 +150,7 @@ factorial(10)
         <li> A decorator factory is just a callable that produces the actual decorator. It is used to make it possible to 'configure' a decorator. </li>
         <li> A dataclass if forozen like "@dataclass(eq=True,frozen=True)" then the ojbects instantiated will become hashable and then can be part of ojbects like "set" </li>
 	<li> "__post_init__()" is the method where we do attribute validation for dataclass , it is not necessary to be done only here , but it is a standard practice </li>
+	<li> Only equality comparable and frozen data classes are hashable </li>
     </ul>
  
 <h2> Nonlocal Keyword </h2> 
