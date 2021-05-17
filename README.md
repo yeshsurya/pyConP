@@ -76,7 +76,8 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
 <h2> Organizing Larger Programs </h2>
  <ul> 
     <li> Module is a python basic tool for organizing code. Normally it is a single Python source file. 
-        We can load modules with "import" keyword. Modules once imported are like any other Python object. </li>
+        We can load modules with "import" keyword. Modules once imported are like any other Python 
+. </li>
     <li> Package is a special type of module, which can contain other packages. Packages are generally directories, while modules are generally files. </li>
     <li> Packages will have "__path__" defined , whild modules will not have it defined. </li> 
     <li> "sys.path" controls module search, and it is initialized from PYTHONPATH </li> 
@@ -102,8 +103,49 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
             #Child_class code block
             ```
             
-        </li>
-        <li> </li>
+</li>
+<li> A decorator can modify the behavior of a method. </li>
+        <li>Creating Decorator in python :   
+
+```
+    # importing libraries
+import time
+import math
+
+# decorator to calculate duration
+# taken by any function.
+def calculate_time(func):
+	
+	# added arguments inside the inner1,
+	# if function takes any arguments,
+	# can be added like this.
+	def inner1(*args, **kwargs):
+
+		# storing time before function execution
+		begin = time.time()
+		
+		func(*args, **kwargs)
+
+		# storing time after function execution
+		end = time.time()
+		print("Total time taken in : ", func.__name__, end - begin)
+
+	return inner1
+# this can be added to any function present,
+# in this case to calculate a factorial
+@calculate_time
+def factorial(num):
+	# sleep 2 seconds because it takes very less time
+	# so that you can see the actual difference
+	time.sleep(2)
+	print(math.factorial(num))
+
+# calling the function.
+factorial(10)
+
+```
+
+</li>
         <li> </li>
         <li> </li>
         <li> </li>
