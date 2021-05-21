@@ -70,7 +70,26 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
 ```
 [ expr(item) for item in iterable if bool_expr(item) ]
 ```
+</hr>
+</br>
+<h2> pytest </h2>
+</br>
+</hr>
+<ul>
+	<li>Many pytest settings can be set in a configuration file, which by convention resides on the root of your repository or in your tests folder. pytest.ini files take precedence over other files, even when empty.
 
+```
+# pytest.ini
+[pytest]
+minversion = 6.0
+addopts = -ra -q
+testpaths =
+    tests
+    integration
+```
+		
+	</li>
+</ul>
 <h1> Core Language </h1> 
 </hr>
 <h2> Organizing Larger Programs </h2>
