@@ -253,3 +253,4 @@ factorial(10)
         <li> "locals()" prints all local variables in current scope </li>
 	    <li> List of all dunder methods in Python <a href="https://www.reddit.com/r/Python/comments/br9ok2/list_of_all_python_dunder_methods/"> in reddit </a> </li>
 	    <li> Pytest command list all fixtures available : ```pytest --fixtures``` </li>
+	    <li> The id() function returns a unique id for the specified object. All objects in Python has its own unique id. The id is assigned to the object when it is created. The id is the object's memory address, and will be different for each time you run the program </li>
