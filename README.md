@@ -254,3 +254,7 @@ factorial(10)
 	    <li> List of all dunder methods in Python <a href="https://www.reddit.com/r/Python/comments/br9ok2/list_of_all_python_dunder_methods/"> in reddit </a> </li>
 	    <li> Pytest command list all fixtures available : ```pytest --fixtures``` </li>
 	    <li> The id() function returns a unique id for the specified object. All objects in Python has its own unique id. The id is assigned to the object when it is created. The id is the object's memory address, and will be different for each time you run the program </li>
+	    <li> Print is a function in Python 3 and a keyword in Python 2. </li>
+	    <li> The Unicode character set in the editor should match the Unicode standard of Python 3.</li>
+	    <li> `py %F` is the Komodo command that you'll use to run a Python script on windows</li>
+	    <li> When you already have python 2 on your mac, you can still download pyton 3 and it'll run separately in addition to python 2</li>
