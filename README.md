@@ -258,3 +258,4 @@ factorial(10)
 	    <li> The Unicode character set in the editor should match the Unicode standard of Python 3.</li>
 	    <li> `py %F` is the Komodo command that you'll use to run a Python script on windows</li>
 	    <li> When you already have python 2 on your mac, you can still download pyton 3 and it'll run separately in addition to python 2</li>
+	    <li> Komodo Edit is free, while Komodo IDE is a pay version </li>
