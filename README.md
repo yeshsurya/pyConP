@@ -259,3 +259,7 @@ factorial(10)
 	    <li> `py %F` is the Komodo command that you'll use to run a Python script on windows</li>
 	    <li> When you already have python 2 on your mac, you can still download pyton 3 and it'll run separately in addition to python 2</li>
 	    <li> Komodo Edit is free, while Komodo IDE is a pay version </li>
+	    <li> Each print statement will print its output in a separate line</li>
+	    <li> A valid shebang line starts with #! / A shebang line starts with a hash mark, immediately followed by an exclamation point.  </li>
+	    <li> "True" - This is an expression but not a stand-alone line of code.(statement/line of code) </li>
+	    <li> In all Python loop types, the evaluation is done before the loop starts. </li>
