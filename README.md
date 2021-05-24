@@ -263,3 +263,5 @@ factorial(10)
 	    <li> A valid shebang line starts with #! / A shebang line starts with a hash mark, immediately followed by an exclamation point.  </li>
 	    <li> "True" - This is an expression but not a stand-alone line of code.(statement/line of code) </li>
 	    <li> In all Python loop types, the evaluation is done before the loop starts. </li>
+	    <li> When a return value is not specified explicitly, a function returns a none value </li>
+	    <li> The f-string version prepends 'f' before the string, and leave the variable inside curly brackets. </li>
