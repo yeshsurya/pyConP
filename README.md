@@ -266,3 +266,13 @@ factorial(10)
 	    <li> When a return value is not specified explicitly, a function returns a none value </li>
 	    <li> The f-string version prepends 'f' before the string, and leave the variable inside curly brackets. </li>
 	    <li> While <b>shutil.copy()</b> copies the file content, <b> shutil.copystat() </b> copies the file metadata. </li>
+	    <li> While <b>path.exists()</b> checks whether a path exists, <b> path.isfile() </b> checks wheter a path is a file. </li>
+	    <li> <b> HTMLParser </b> is the class provided by python to parse HTML </li>
+	    <li> Code to dump HTML  </br>
+	    
+```python 
+import urllib.request
+webUrl = urllib.request.urlopen("http://www.google.com")
+results = webUrl.read()
+print(results)
+
