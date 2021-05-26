@@ -265,3 +265,4 @@ factorial(10)
 	    <li> In all Python loop types, the evaluation is done before the loop starts. </li>
 	    <li> When a return value is not specified explicitly, a function returns a none value </li>
 	    <li> The f-string version prepends 'f' before the string, and leave the variable inside curly brackets. </li>
+	    <li> While <b>shutil.copy()</b> copies the file content, <b> shutil.copystat() </b> copies the file metadata. </li>
