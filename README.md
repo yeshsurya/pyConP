@@ -90,6 +90,12 @@ testpaths =
 		
 	</li>
 </ul>
+</br> 
+<h1> Data Analytics </h1> 
+</hr> 
+<ul> 
+	<li> First stage in the cross industry standard process for data mining ( CRISP-DM ) is to have understanding of the problem you are solving and the advantages it provides </li>
+</ul>
 <h1> Core Language </h1> 
 </hr>
 <h2> Organizing Larger Programs </h2>
