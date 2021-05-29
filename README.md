@@ -101,6 +101,7 @@ testpaths =
 	<li>pip unisntall package_name1 package_name2 </li>
 	<li>pip list </li>
 	<li>pip show package_name (shows details bout package)</li>
+	<li>python -m pip (for python documentation) </li>
 </ul>
 <h1> Data Analytics </h1> 
 </hr> 
