@@ -91,6 +91,17 @@ testpaths =
 	</li>
 </ul>
 </br> 
+<h1> pip </h1>
+</br>
+</hr>
+<ul>
+	<li>pip install package_name </li>
+	<li>pip install package_name1 package_name2 </li>
+	<li>pip uninstall package_name</li>
+	<li>pip unisntall package_name1 package_name2 </li>
+	<li>pip list </li>
+	<li>pip show package_name (shows details bout package)</li>
+</ul>
 <h1> Data Analytics </h1> 
 </hr> 
 <ul> 
