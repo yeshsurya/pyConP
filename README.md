@@ -287,6 +287,7 @@ factorial(10)
 	    <li> While <b>path.exists()</b> checks whether a path exists, <b> path.isfile() </b> checks wheter a path is a file. </li>
 	    <li> "urllib" provides more granular control compared to "httplib" library </li>
 	    <li> <b> HTMLParser </b> is the class provided by python to parse HTML </li>
+	    <li> <b> Beautiful Soup </b> is a python package for parsing HTML and XML, including those with malformed markup such as missing tags </li>
 	    <li> Code to dump HTML  </br>
 	    
 ```python 
