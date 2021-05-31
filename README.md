@@ -288,6 +288,7 @@ factorial(10)
 	    <li> "urllib" provides more granular control compared to "httplib" library </li>
 	    <li> <b> HTMLParser </b> is the class provided by python to parse HTML </li>
 	    <li> <b> Beautiful Soup </b> is a python package for parsing HTML and XML, including those with malformed markup such as missing tags </li>
+	    <li> The default parser of BeautifulSoup is <b> lxml</b> which is lenient and fast as compared to html. </li>
 	    <li> <b> Sikuli </b> is a free open-source automation software that uses image detection to automate anything you see on your screen. Sikuli is a Jython interpreter(Uses both Python and Java). SikuliX or Sikuli is a scripting/automation technology that relies on pattern matching, and is available for use via Python or Java
 	    <li> Code to dump HTML  </br>
 	    
