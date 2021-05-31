@@ -226,10 +226,6 @@ factorial(10)
         <li> List </li> 
         <li> Sets </li> 
         <li> Dictionaries </li> 
-        <li> Immutalbe built-in types</li>
-        <li> Strings </li>
-        <li> Tuples </li>
-        <li> Numbers </li> 
         </ul>
         </br>
         Immutable built-in types are : 
