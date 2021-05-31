@@ -285,6 +285,7 @@ factorial(10)
 	    <li> The f-string version prepends 'f' before the string, and leave the variable inside curly brackets. </li>
 	    <li> While <b>shutil.copy()</b> copies the file content, <b> shutil.copystat() </b> copies the file metadata. </li>
 	    <li> While <b>path.exists()</b> checks whether a path exists, <b> path.isfile() </b> checks wheter a path is a file. </li>
+	    <li> "urllib" provides more granular control compared to "httplib" library </li>
 	    <li> <b> HTMLParser </b> is the class provided by python to parse HTML </li>
 	    <li> Code to dump HTML  </br>
 	    
