@@ -129,6 +129,24 @@ testpaths =
     <ul> 
         <li> Class attributes are those attributes whose value is shared across multiple instances of a class. </li>
         <li> A method can be made static method by static method decorator(@staticmethod)</li>
+	 <li> Can we have 2 Constructors in Python?
+		 Yes but the second definition will override the first definition. </li>
+
+```python
+class Student:
+    def __init__(selfa):
+        selfa.test = 'aa'
+        selfa.testa = 'a'
+        print("initiated")
+    def __init__(selfa,test):
+        selfa.testa = test
+        print("in test initializer")
+    def hello(selfa):
+        print(selfa.test)
+
+a = Student('testa')
+a.hello()
+```
         <li>![image](https://user-images.githubusercontent.com/9417467/118355178-58839780-b58c-11eb-95de-d30d25b1178b.png)
  </li>
         <li> General Syntax for single class Inheritance : 
