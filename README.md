@@ -301,6 +301,7 @@ factorial(10)
 	    <li> While <b>path.exists()</b> checks whether a path exists, <b> path.isfile() </b> checks wheter a path is a file. </li>
 	    <li> "urllib" provides more granular control compared to "httplib" library </li>
 	    <li> <b> HTMLParser </b> is the class provided by python to parse HTML </li>
+	    <li> Ternary operator in python : <b>a if condition else b</b> </li>
 	    <li> <b> Beautiful Soup </b> is a python package for parsing HTML and XML, including those with malformed markup such as missing tags </li>
 	    <li> The default parser of BeautifulSoup is <b> lxml</b> which is lenient and fast as compared to html. </li>
 	    <li> Both str() and repr() methods in python are used for string representation of a string. Now if you go by the official python documentation – the __str__ is used to find the “informal”(readable) string representation of an object whereas __repr__ is used to find the “official” string representation of an object. </li>
