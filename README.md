@@ -18,7 +18,34 @@ Master notes for python core concepts
     <li> When accessed through "self" instance attributes takes precedence over class attributes. </li>
     <li> There is no class scope. Class will not introduce any scope. </li>
 </ul>
-    
+
+<hr>
+<h1> Matrix Transpose in Python </h1>
+
+Python 2 : 
+```
+>>> theArray = [['a','b','c'],['d','e','f'],['g','h','i']]
+>>> zip(*theArray)
+[('a', 'd', 'g'), ('b', 'e', 'h'), ('c', 'f', 'i')]
+```
+
+Python 3:
+```
+>>> [*zip(*theArray)]
+[('a', 'd', 'g'), ('b', 'e', 'h'), ('c', 'f', 'i')]
+```
+
+or
+
+```
+>>> theArray = [['a','b','c'],['d','e','f'],['g','h','i']]
+>>> [list(i) for i in zip(*theArray)]
+[['a', 'd', 'g'], ['b', 'e', 'h'], ['c', 'f', 'i']]
+
+```
+	
+
+<hr>
 
 ```
 class Class1():
