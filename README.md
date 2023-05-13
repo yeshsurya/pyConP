@@ -98,6 +98,15 @@ my_child2 = Class2(sharedVar)  # expecting to print 2// But in actual you'll see
 [ expr(item) for item in iterable if bool_expr(item) ]
 ```
 </hr>
+<h2>Using Custrom function in sorted </h2>
+
+```
+from functools import cmp_to_key
+
+nums = [28, 50, 17, 12, 121]
+nums.sort(key=cmp_to_key(lambda x, y: 1 if str(x)+str(y) < str(y)+str(x) else -1))
+```
+</hr>
 </br>
 <h2> pytest </h2>
 </br>
