@@ -351,3 +351,4 @@ webUrl = urllib.request.urlopen("http://www.google.com")
 results = webUrl.read()
 print(results)
 
+<li>The __all__ variable is a powerful tool that can be used to control the visibility of names in a module. This can be useful for a variety of reasons, such as preventing name clashes or hiding implementation details.</li>
