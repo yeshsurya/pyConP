@@ -341,6 +341,7 @@ factorial(10)
 	    <li>When the int class is passed as the default_factory argument, then a defaultdict is created with default value as zero.</li>
 	    <li> <b> Beautiful Soup </b> is a python package for parsing HTML and XML, including those with malformed markup such as missing tags </li>
 	    <li> The default parser of BeautifulSoup is <b> lxml</b> which is lenient and fast as compared to html. </li>
+        <li>The <b>__all__</b> variable is a powerful tool that can be used to control the visibility of names in a module. This can be useful for a variety of reasons, such as preventing name clashes or hiding implementation details.</li>
 	    <li> Both str() and repr() methods in python are used for string representation of a string. Now if you go by the official python documentation – the __str__ is used to find the “informal”(readable) string representation of an object whereas __repr__ is used to find the “official” string representation of an object. </li>
 	    <li> <b> Sikuli </b> is a free open-source automation software that uses image detection to automate anything you see on your screen. Sikuli is a Jython interpreter(Uses both Python and Java). SikuliX or Sikuli is a scripting/automation technology that relies on pattern matching, and is available for use via Python or Java
 	    <li> Code to dump HTML  </br>
@@ -351,4 +352,3 @@ webUrl = urllib.request.urlopen("http://www.google.com")
 results = webUrl.read()
 print(results)
 
-<li>The __all__ variable is a powerful tool that can be used to control the visibility of names in a module. This can be useful for a variety of reasons, such as preventing name clashes or hiding implementation details.</li>
